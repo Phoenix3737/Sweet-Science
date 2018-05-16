@@ -1,17 +1,22 @@
 {
-  "name": "sweet-science",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.4"
-  },
+  "name": "app",
+  "version": "1.0.0",
+  "description": "simple application",
+  "main": "app.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "boxrec": "^0.8.1",
+    "cheerio": "^1.0.0-rc.2",
+    "fs": "0.0.1-security",
+    "mongodb": "^2.2.35",
+    "mongoose": "^5.0.17",
+    "request": "^2.86.0",
+    "require": "^2.4.20"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "keywords": []
 }
