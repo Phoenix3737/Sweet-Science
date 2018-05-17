@@ -12,12 +12,12 @@ const App = () => (
     <div>
       <h1>App.hs</h1>
       <Navbar />
-    <Wrapper>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/home" component={Home} />
-        <Route exact path="/discover" component={Discover} />
-        <Route exact path="/search" component={Search} />
-      </Wrapper>
+        <Wrapper>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/discover" component={Discover} />
+          <Route exact path="/search" component={Search} />
+        </Wrapper>
       <Footer />
     </div>
   </Router>
