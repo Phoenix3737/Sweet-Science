@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import Login from "../Login"
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 const Navbar = props => (
@@ -43,6 +44,7 @@ const Navbar = props => (
           <Link to="/search" className="nav-link">
             Search
           </Link>
+          <Login />
         </li>
       </ul>
     </div>
