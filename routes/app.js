@@ -144,7 +144,7 @@ boxrec.login('boltaScola','5AUK3LI1WNEQQ').then(()=>{
     boxer.career = career_data;
     console.log("Data Fetched. Writing on file")
     if(boxer.name == "" || boxer.name.length < 2) {
-      console.log("Data Fetched. This Boxer Doesnot Existed!!. ")
+      console.log("Data Fetched. This Boxer Does Not Existed!!. ")
     }
     else {
       fs.appendFile("output.json", JSON.stringify(boxer)+"\n", function(err) {
