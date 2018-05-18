@@ -17,13 +17,11 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
-<<<<<<< HEAD
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-materialize": "^2.2.1",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.4"
-=======
+    "react-scripts": "1.1.4",
     "boxrec": "^0.8.1",
     "cheerio": "^1.0.0-rc.2",
     "fs": "0.0.1-security",
@@ -34,7 +32,6 @@
     "if-env": "^1.0.4",
     "body-parser": "^1.18.2",
     "express": "^4.15.4"
->>>>>>> eeb1828691f07542f27d3f0644597eb843b9f890
   },
   "author": "",
   "license": "ISC",
