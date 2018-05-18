@@ -6,12 +6,14 @@ import Search from "./pages/Search";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
+import Login from "./components/Login";
 
 const App = () => (
   <Router>
     <div>
-      <h1>App.hs</h1>
+      <h1>Sweet Science</h1>
       <Navbar />
+        <Login />
         <Wrapper>
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
