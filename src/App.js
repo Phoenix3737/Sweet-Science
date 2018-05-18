@@ -10,7 +10,7 @@ import Wrapper from "./components/Wrapper";
 const App = () => (
   <Router>
     <div>
-      <h1>App.hs</h1>
+      <h1>Sweet Science</h1>
       <Navbar />
     <Wrapper>
         <Route exact path="/" component={Home} />
