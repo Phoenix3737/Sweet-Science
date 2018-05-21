@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import {Button, Icon} from 'react-materialize'
 import Discover from "./pages/Discover";
 import Home from "./pages/Home";
 import Search from "./pages/Search";
@@ -24,3 +25,8 @@ const App = () => (
 );
 
 export default App;
+export default () => (
+  <Button waves='light'>
+    <Icon>thumb_up</Icon>
+  </Button>
+)
